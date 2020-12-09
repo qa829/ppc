@@ -182,6 +182,7 @@ script:
 
 # Docker
 - echo "==> Docker"
+- sudo cat /etc/docker/daemon.json
 - docker info
 - docker run hello-world
 
